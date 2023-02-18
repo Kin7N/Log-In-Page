@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <title>Login Page</title>
+</head>
+<body>
+    <form action="#">
+        <div class="login-first">
+            <h1 class="header">Log In</h1>
+            <i class="fas fa-user" id="user-icon"></i> 
+            <input type="text" id="username-box" placeholder="Username" onclick="username_event()">
+            <i class="fas fa-key" id="key-icon"></i> 
+            <input type="password" id="password-box" placeholder="Password" onclick="password_event()">
+            <i class="far fa-eye-slash" id="eye-slash-icon" onclick="show_hide_event()"></i>
+            <i class="far fa-eye" id="open-eye"></i>
+            <a href="#" id="button" title="Log In">Submit</a>
+            <div class="line"></div>
+            <div class="line-write">You Can Log In With</div>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-instagram-square"></i></a>
+                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-github-square"></i></a>
+            </div>
+        </div>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
